@@ -154,4 +154,9 @@ view: superstore_datasets {
     type: count
     drill_fields: [customer_name]
   }
+
+  measure: count2 {
+    type: count
+    drill_fields: [customer_name]
+  }
 }
