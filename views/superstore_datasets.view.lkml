@@ -16,7 +16,7 @@ view: superstore_datasets {
     sql: ${TABLE}.category ;;
   }
 
-  dimension: category1 {
+  dimension: category2 {
     type: string
     sql: ${TABLE}.category ;;
   }
